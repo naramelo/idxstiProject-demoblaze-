@@ -29,7 +29,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_STORE/input_Passwo
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/button_Log in'))
 
-WebUI.verifyTextPresent('Welcome', false)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_STORE/a_Welcome haloiniusertesting'))
 
 WebUI.closeBrowser()
 

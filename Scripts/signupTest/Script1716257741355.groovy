@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://www.demoblaze.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/a_Sign up'))
 
-WebUI.setText(findTestObject('Page_STORE/input_Username_sign-username'), 'inimomotau')
+WebUI.setText(findTestObject('Page_STORE/input_Username_sign-username'), 'haloiniusertesting')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_STORE/input_Password_sign-password'), 'iQ/0N7K+XrNCKin+Ow1EcQ==')
 

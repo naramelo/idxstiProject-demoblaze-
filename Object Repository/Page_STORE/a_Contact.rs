@@ -6,48 +6,51 @@
    <elementGuidId>9837f085-f96d-475e-8ea4-dd5d4fe17270</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[@href = '#' and (text() = 'Contact' or . = 'Contact')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarExample']/ul/li[2]/a</value>
+         <key>BASIC</key>
+         <value>id(&quot;navbarExample&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;][count(. | //a[@class = 'nav-link' and @data-toggle = 'modal' and @data-target = '#exampleModal' and @href = '#' and (text() = 'Contact' or . = 'Contact')]) = count(//a[@class = 'nav-link' and @data-toggle = 'modal' and @data-target = '#exampleModal' and @href = '#' and (text() = 'Contact' or . = 'Contact')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9c3dd81b-1246-4acf-b445-a416de0065a2</webElementGuid>
+      <webElementGuid>c88190cd-c70b-488a-b189-d9719d18ba73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>9b201a1a-5c8e-4ed8-9984-a385c6c259e7</webElementGuid>
+      <webElementGuid>93cadaaa-018e-46c2-82a4-8eb0db9abb42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-toggle</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>92e6a3be-ee76-4bc1-aa5e-9a1405d85936</webElementGuid>
+      <webElementGuid>ae572d89-9142-42e7-bca4-414ae2147090</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-target</name>
       <type>Main</type>
       <value>#exampleModal</value>
-      <webElementGuid>86e1cf0b-62eb-44d5-98d9-b12135baa2ee</webElementGuid>
+      <webElementGuid>f01bb899-782b-4e36-ac77-0732a2f8d90a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +58,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>aa8a46d1-f200-4194-a94e-6c982a35ecc4</webElementGuid>
+      <webElementGuid>02eee437-3cd7-485d-a8c3-eccf32f941f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,15 +66,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Contact</value>
-      <webElementGuid>45564c6f-9304-4fbe-a46a-76d5aae758b5</webElementGuid>
+      <webElementGuid>f17d09ae-94a5-4e1d-a287-a4d0340dfc41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarExample&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>62170c6f-4235-469d-84fc-4b3903a2a9e0</webElementGuid>
+      <webElementGuid>a5be4adc-b8c0-4c4a-9b60-b53080fca00a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarExample']/ul/li[2]/a</value>
-      <webElementGuid>502394b8-382a-4c22-b91e-d47b8c965d82</webElementGuid>
+      <webElementGuid>816d881a-0db2-4d54-aab2-d4c55ac0770f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +90,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Contact')]</value>
-      <webElementGuid>8f8af961-4414-4f0b-ada4-ccf2fd6f05ef</webElementGuid>
+      <webElementGuid>feb86c29-ec00-49dd-87a4-f5eca48b4974</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::a[1]</value>
-      <webElementGuid>5fc00aa2-91cc-41a3-a692-a477e2dfa970</webElementGuid>
+      <webElementGuid>fadf38b2-61b6-41ac-ab67-a4e98c7590c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::a[2]</value>
-      <webElementGuid>7b1c972e-cf93-44f1-a6f9-715de6ffcff1</webElementGuid>
+      <webElementGuid>66408111-afa3-471d-8a5d-efe8919003ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[7]</value>
-      <webElementGuid>5da57cfd-c25f-4291-b536-96edae29f4d7</webElementGuid>
+      <webElementGuid>9d0a39a0-8881-46a4-807a-273654f6de50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Contact']/parent::*</value>
-      <webElementGuid>a9673ca2-77b9-4d8f-a7e0-84717768dfdb</webElementGuid>
+      <webElementGuid>8af794b8-a1bc-4bbf-9c4f-f679c41636bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +130,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>7fb7a200-9389-4f94-91be-ffa328a02459</webElementGuid>
+      <webElementGuid>0208ccfa-1793-43a3-ba66-889e2478b70b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>a6690815-caec-4d4b-bf2b-4d33cbf53ad9</webElementGuid>
+      <webElementGuid>274dad37-3740-453b-8954-be4c4b712e9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Contact' or . = 'Contact')]</value>
-      <webElementGuid>a4baf323-d665-4e07-b7ad-044eed8c23f7</webElementGuid>
+      <webElementGuid>bc8e3775-6782-4721-a497-e47ae8209119</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

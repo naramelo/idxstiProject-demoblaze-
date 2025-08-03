@@ -4,5 +4,6 @@
    <name>signupTest</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>94556422-98d8-4780-a3e1-a5f0717a827b</testCaseGuid>
 </TestCaseEntity>

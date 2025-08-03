@@ -23,19 +23,24 @@ WebUI.navigateToUrl('https://www.demoblaze.com/')
 
 WebUI.click(findTestObject('Page_STORE/a_Log in'))
 
-WebUI.setText(findTestObject('Page_STORE/input_Username_loginusername'), 'haloiniusertesting')
+WebUI.setText(findTestObject('Object Repository/Page_STORE/input_Username_loginusername'), 'haloiniusertesting')
 
-WebUI.setEncryptedText(findTestObject('Page_STORE/input_Password_loginpassword'), 'YU6o5uwZ46juR6hQKb5NkQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_STORE/input_Password_loginpassword'), 'YU6o5uwZ46juR6hQKb5NkQ==')
 
 WebUI.click(findTestObject('Page_STORE/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_STORE/a_Samsung galaxy s6'))
-
 WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_STORE/a_Samsung galaxy s6'))
 
 WebUI.click(findTestObject('Object Repository/Page_STORE/a_Add to cart'))
 
 WebUI.delay(5)
 
 WebUI.closeBrowser()
+
+
+
+
+
 
